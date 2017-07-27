@@ -1,0 +1,12 @@
+package: etcd-service-discovery
+import:
+- package: github.com/chenqinghe/etcd-service-discovery
+  subpackages:
+  - discovery
+- package: github.com/coreos/etcd
+  version: ~3.2.4
+  subpackages:
+  - client
+- package: golang.org/x/net
+  subpackages:
+  - context
