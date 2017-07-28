@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/daizuozhuo/etcd-service-discovery/discovery"
+	"github.com/chenqinghe/etcd-service-discovery/discovery"
 )
 
 func main() {
